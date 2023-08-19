@@ -1,0 +1,25 @@
+{
+  "name": "proyecto-final",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Proyecto Final - Entrega 1",
+  "main": "./src/app.js",
+  "scripts": {
+    "dev": "nodemon ./src/app.js"
+  },
+  "nodemonConfig": {
+    "ignore": ["data/*"],
+    "events": {
+      "start": "clear || cls & echo ====================  START  ====================\n"
+    }
+  },
+  "keywords": [],
+  "author": "Juan Romero",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
